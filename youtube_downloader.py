@@ -28,7 +28,7 @@ def extract_audio_from_videos():
             os.remove(video_path)
             print(f"Áudio extraído e vídeo {video_file} apagado.")
 
-playlist_url = 'https://youtube.com/playlist?list=PLKFiOX8fS7s2WNsqqqdpwcvP-BZuqqUbi&si=X1lfa4gHL6B3Z4QQ'
+playlist_url = input("Digite a URL da playlist: ")
 
 download_videos_from_playlist(playlist_url)
 extract_audio_from_videos()

@@ -1,2 +1,7 @@
+altgraph==0.17.4
+packaging==24.2
 pydub==0.25.1
+pyinstaller==6.11.1
+pyinstaller-hooks-contrib==2024.10
+setuptools==75.6.0
 yt-dlp==2024.12.3
